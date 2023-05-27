@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    height: 100vh;
+}
+.container svg{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: -100px;
+    top: -200px;
+}
+.container #sw-js-blob-svg2{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top:70% ;
+    left: -100px;
+
+}
+
+.container_2{
+  width: 70%;
+  height: 80%;
+  border: 5px solid black;
+  display:flex;
+  border-radius: 20px;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  position: relative;
+}
+h1{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+span{
+    color: rgb(58, 58, 175);
+}
+form{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(133, 133, 133);
+    margin: 0rem 1rem;
+
+}
+
+input{
+    width: 500px;
+    padding: .8rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    outline: none; 
+    color: black; 
+}
+input::placeholder{
+    color: black;
+}
+#btn{
+    background-color: rgb(58, 58, 175);
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: .3s all ease;
+    
+}
+#btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(58, 58, 175);
+    color: black;
+
+}
+#pass{
+    margin: 1rem;
+    width: 500px;
+}
